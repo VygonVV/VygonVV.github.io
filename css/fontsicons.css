@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?t8uc5a');
+  src:  url('../fonts/icomoon.eot?t8uc5a#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?t8uc5a') format('truetype'),
+    url('../fonts/icomoon.woff?t8uc5a') format('woff'),
+    url('../fonts/icomoon.svg?t8uc5a#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-intel:before {
+  content: "\e900";
+  color: #0071c5;
+}
+.icon-redbubble:before {
+  content: "\e901";
+  color: #e41321;
+}
+.icon-redux:before {
+  content: "\e902";
+  color: #764abc;
+}
+.icon-sega:before {
+  content: "\e903";
+  color: #0089cf;
+}
+.icon-shopify:before {
+  content: "\e904";
+  color: #7ab55c;
+}
+.icon-slides:before {
+  content: "\e905";
+  color: #e4637c;
+}
+.icon-snapchat:before {
+  content: "\e906";
+  color: #fffc00;
+}
+.icon-solus:before {
+  content: "\e907";
+  color: #5294e2;
+}
+.icon-songkick:before {
+  content: "\e908";
+  color: #f80046;
+}
